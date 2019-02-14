@@ -1,0 +1,6 @@
+n=int(input())
+x=map(int,input().split())
+y=sorted(x)
+a=max(y)
+b=min(y)
+print(b,a)
